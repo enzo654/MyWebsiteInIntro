@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rence - Coffee Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #5A270F;
+        }
+
+        header {
+            background-color: #281E18;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu-container {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 15px;
+          margin-top: 30px;
+        }
+
+        .menu-item {
+          background-color: #281E18;
+          color: white;
+          padding: 15px 30px;
+          border-radius: 10px;
+          text-decoration: none;
+          font-size: 18px;
+          font-weight: bold;
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+          transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .menu-item:hover {
+          transform: scale(1.1);
+          box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.3);
+
+        }
+
+        nav {
+            background-color: #6e3910;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 23px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #726a6a;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            text-align: left;
+            padding: 0.75rem;
+        }
+
+        th {
+            background-color: #6f4e37;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        footer {
+            background-color: #6f4e37;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer {
+            background-color: #281E18;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Rence Coffee and Food Shop</h1>
+        <p>Your perfect spot for freshly brewed coffee and delightful meals!</p>
+        <h2>Menu</h2>
+    </header>
+
+    <nav>
+       <div class="menu-container">
+        <a href="file:///D:/Webpage/RorensuCoffeeShopMain.html" class="menu-item">HomePage</a>  
+        <a href="file:///D:/Webpage/RorensuCoffeeShopCoffees.html" class="menu-item">Coffees</a>
+        <a href="file:///D:/Webpage/RorensuCoffeeShopFoods.html" class="menu-item">Foods</a>
+       </div>
+    </nav>
+
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Category</th>
+                    <th>Price (PHP)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Americano</td>
+                    <td>Coffee</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>Latte</td>
+                    <td>Coffee</td>
+                    <td>140</td>
+                </tr>
+                <tr>
+                    <td>Drip Brewed Coffee</td>
+                    <td>Coffee</td>
+                    <td>110</td>
+                </tr>
+                <tr>
+                    <td>Affogato</td>
+                    <td>Coffee</td>
+                    <td>160</td>
+                </tr>
+                <tr>
+                    <td>Mocha</td>
+                    <td>Coffee</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>Cappuccino</td>
+                    <td>Coffee</td>
+                    <td>140</td>
+                </tr>
+                <tr>
+                    <td>Croissant</td>
+                    <td>Pastry</td>
+                    <td>90</td>
+                </tr>
+                <tr>
+                    <td>Egg Sandwich</td>
+                    <td>Sandwich</td>
+                    <td>120</td>
+                </tr>
+                <tr>
+                    <td>Italian Pasta</td>
+                    <td>Main Course</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>Vegan Salad</td>
+                    <td>Salad</td>
+                    <td>180</td>
+                </tr>
+                <tr>
+                    <td>Chocolate Cupcakes</td>
+                    <td>Dessert</td>
+                    <td>75</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    
+</body>
+<footer></footer>
+</html>
